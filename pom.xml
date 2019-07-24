@@ -6,7 +6,7 @@
   <groupId>za.co.scrinium</groupId>
   <artifactId>ecommerce</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>war</packaging>       
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -252,7 +252,7 @@
 						<include>${runSuite}</include>
 					</includes>
 				</configuration>
-			</plugin> -->
+			</plugin>                
 			
 			 <plugin>
 				<groupId>org.jacoco</groupId>
@@ -270,7 +270,26 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
+	    <plugin>
+  <groupId>org.jacoco</groupId>
+  <artifactId>jacoco-maven-plugin</artifactId>
+  <version>0.8.5-SNAPSHOT</version>
+</plugin>
+	   
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
  </plugins>
     <pluginManagement>
       <plugins>
