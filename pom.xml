@@ -242,7 +242,7 @@
           <useTestClasspath>false</useTestClasspath>
         </configuration>
       </plugin>
-    </plugins>
+   
            
            <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -271,7 +271,7 @@
 					</execution>
 				</executions>
 			</plugin>
-
+ </plugins>
     <pluginManagement>
       <plugins>
         <plugin>
