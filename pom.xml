@@ -244,7 +244,7 @@
       </plugin>
    
            
-           <plugin>
+        <!--   <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
@@ -252,7 +252,7 @@
 						<include>${runSuite}</include>
 					</includes>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			
 			 <plugin>
 				<groupId>org.jacoco</groupId>
@@ -260,7 +260,7 @@
 				<version>0.8.3</version>
 				<configuration>
 					<destFile>${sonar.jacoco.reportPaths}</destFile>
-					<append>true</append>
+					             <append>true</append>
 				</configuration>
 				<executions>
 					<execution>
