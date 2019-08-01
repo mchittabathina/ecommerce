@@ -8,12 +8,7 @@ pipeline {
     }
     stage('build') {
       steps {
-        bat 'mvn install'
-      }
-    }
-    stage('sonarqube') {
-      steps {
-        bat 'mvn sonar:sonar'
+        bat 'mvn test'
       }
     }
   }
